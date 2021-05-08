@@ -1,4 +1,27 @@
+* {
+  font-family: "Cinzel", serif;
+}
+
+/* set up for rem use in itme sizing (factor of 10) */
+html {
+  font-size: 62.5%;
+}
+
 header {
-  background-color: lawngreen;
+  background-color: rgb(231, 94, 14);
   color: lemonchiffon;
+  display: flex;
+  border: black solid 2px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav {
+}
+
+nav a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: lemonchiffon;
+  margin: 1rem;
 }
